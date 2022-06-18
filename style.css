@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(58, 231, 153);
+}
+
+h1{
+    color: rgb(153, 253, 144);
+    background-color: rgb(255, 153, 37);
+    
+}
+#show_drawing{
+    float: right;
+    height: 40px;
+}
+p{
+    font-size: 25px;
+}
+#score{
+    color: darkgoldenrod;
+    font-size: 30px;
+    margin-right: 1000px;
+    align-self: center;
+}
+#timer{
+    color: darkgoldenrod;
+    font-size: 30px;
+    align-self: center;
+
+}
+
+canvas{
+    margin-top: 60px;
+    border: 5px solid white;
+    border-radius: 30px;
+    animation-name: change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes change_color{
+      from{
+          box-shadow: 5px 5px 100px rgb(217, 255, 0);
+      }
+      to{
+          box-shadow: 5px 5px 100px rgb(204, 0, 255);
+      }
+  }
